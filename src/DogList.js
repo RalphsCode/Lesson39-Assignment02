@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+/** Function to list the names of all the dogs, which
+ * link to a detail page of the clicked upon dog name.
+ */
 const DogList = ({dogs}) => {
     return (
         <div>

@@ -1,6 +1,7 @@
 import './App.css';
 import DogRouter from './DogRouter';
 
+/** Displays the header, and calls the router Component */
 function App({ dogs = App.defaultProps.dogs }) {
   return (
     <div className="App">
@@ -10,6 +11,8 @@ function App({ dogs = App.defaultProps.dogs }) {
   );
 }  // END Props
 
+
+// Default object containing an Array of dogs.
 App.defaultProps = {
   dogs: [
     {
