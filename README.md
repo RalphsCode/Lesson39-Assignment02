@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# RalphsCode React Router Practice
+
+# Dogs App. 
+Lists dog names, with ability to click on a dog name to get details about that particular dog (including an adorable photo!)
+
+# Code Bases:
+JavaScript, React, React Router, Components, Props, URL Paramaters, Create React App. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
