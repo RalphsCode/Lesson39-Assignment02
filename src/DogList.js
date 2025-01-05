@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DogList = ({dogs}) => {
     return (
@@ -8,10 +9,8 @@ const DogList = ({dogs}) => {
             {dogs.map((dog) => (
                 <div key={dog.name}>
                     <p> 
-                        Name: <b>{dog.name}</b> <br/>
-                        Age: <b>{dog.age}</b> <br/>
+                       <b><Link to={`/dogs/${dog.name}`}>{dog.name} </Link></b> 
                     </p>
-                    <img src={dog.src} alt={dog.name} width="150" />
                 </div>
             )
         )}
@@ -21,5 +20,3 @@ const DogList = ({dogs}) => {
 };
 
 export default DogList;
-
-//  <img src={dog.src} alt={dog.name} width = "150" />
